@@ -1,0 +1,2 @@
+add_lunch_combo omni_chopin-eng
+add_lunch_combo omni_chopin-userdebug
