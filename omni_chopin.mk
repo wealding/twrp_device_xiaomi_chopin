@@ -7,14 +7,14 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from chopin device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_BRAND := redmi
+PRODUCT_BRAND := xiaomi
 PRODUCT_DEVICE := chopin
 PRODUCT_MANUFACTURER := redmi
 PRODUCT_NAME := omni_chopin
 PRODUCT_MODEL := chopin
 
 PRODUCT_GMS_CLIENTID_BASE := android-redmi
-TARGET_VENDOR := redmi
+TARGET_VENDOR := xiaomi
 TARGET_VENDOR_PRODUCT_NAME := chopin
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="chopin-user 11 RP1A.200720.011 21.6.23 release-keys"
 
