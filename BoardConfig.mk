@@ -47,6 +47,7 @@ TARGET_RECOVERY_UI_BLANK_UNBLANK_ON_INIT := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_RECOVERY_WIPE := device/xiaomi/chopin/recovery.wipe
 
+# TWRP Addition
 ALLOW_MISSING_DEPENDENCIES = true
 VENDOR_SECURITY_PATCH := 2099-07-05
 TW_THEME := portrait_hdpi
@@ -78,9 +79,7 @@ BOARD_KERNEL_OFFSET = 0x00008000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
-
 TARGET_PREBUILT_KERNEL := device/xiaomi/chopin/prebuilt/kernel
-
 BOARD_KERNEL_CMDLINE := androidboot.console=ttyMSM0 androidboot.hardware=chopin
 BOARD_KERNEL_CMDLINE += user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3
 BOARD_KERNEL_CMDLINE += service_locator.enable=1
