@@ -9,11 +9,11 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := xiaomi
 PRODUCT_DEVICE := chopin
-PRODUCT_MANUFACTURER := redmi
+PRODUCT_MANUFACTURER := xiaomi
 PRODUCT_NAME := omni_chopin
 PRODUCT_MODEL := chopin
 
-PRODUCT_GMS_CLIENTID_BASE := android-redmi
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR := xiaomi
 TARGET_VENDOR_PRODUCT_NAME := chopin
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="chopin-user 11 RP1A.200720.011 21.6.23 release-keys"
