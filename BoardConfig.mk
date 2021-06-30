@@ -41,7 +41,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Recovery
 TARGET_RECOVERY_DENSITY := xxhdpi
-TARGET_RECOVERY_FSTAB := device/xiaomi/chopin/recovery/root/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/xiaomi/chopin/recovery/root/etc/twrp.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_RECOVERY_UI_BLANK_UNBLANK_ON_INIT := true
 TARGET_USERIMAGES_USE_EXT4 := true
